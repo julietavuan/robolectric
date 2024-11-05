@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/" # Ubicación del pom.xml; ajusta si está en un subdirectorio
+    schedule:
+      interval: "weekly" # Frecuencia de chequeo (puedes usar daily o monthly)
+    open-pull-requests-limit: 5 # Límite de PRs abiertos simultáneamente
